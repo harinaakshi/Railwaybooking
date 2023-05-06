@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register User</title>
+</head>
+<body>
+
+
+<fieldset>
+<legend conteneditable="true" align="center">FORM</legend>
+<form action="register" method="post">
+<table >
+<tr>
+<th>First name:</th>
+<th><input type="text" placeholder="enter your first name" name="first" required="required"></th>
+</tr>
+
+
+<tr>
+<th>Last name:</th>
+<th><input type="text" placeholder="enter your last name" name="last"required="required" ></th>
+</tr>
+
+<tr>
+<th>Mobile:</th>
+<th><input type="tel" pattern="[0-9]{10}" name="mobile" required="required"></th>
+</tr>
+
+<tr>
+<th>Email:</th>
+<th><input type="email" name="c" placeholder="enter email" required="required"></th>
+</tr>
+
+<tr>
+<th>Gender:</th>
+<th>Male<input type="radio" name="d" value="male" required="required">  
+Female<input type="radio" name="d" value="female"></th>
+</tr>
+
+<tr>
+<th>Create Password:</th>
+<th><input type="password" name="password1" ></th>
+</tr>
+
+<tr>
+<th>Confirm Pasword:</th>
+<th><input type="password" name="password2" ></th>
+</tr>
+
+<tr>
+<th>DOB:</th>
+<th><input type="date" name="e" id="e" required="required"></th>
+</tr>
+
+
+<tr>
+
+<th><button type="reset">Cancel</button></th>
+<th><button>Create account</button></th>
+
+</tr>
+
+<tr>
+<th><button>Login</button></th>
+</tr>
+</table>
+</form>
+<br>
+<a href="Login.html">Already have account?Click here to create an account</a>
+<br><br>
+<a href="Home.html"><button>Home</button></a>
+</fieldset>
+
+
+
+</body>
+</html>
